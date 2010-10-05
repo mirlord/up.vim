@@ -1,6 +1,6 @@
 " Maintainer:   Aleksandr Koss
-" Version:      0.2
-" Last Change:  August 16, 2010
+" Version:      0.4
+" Last Change:  15 Oct 2010
 " Credits:      Vim color scheme "up" originaly based on BusyBee colorscheme create by Patrick J. Anderson
 
 set background=dark
@@ -77,7 +77,6 @@ hi ColorColumn     guifg=NONE      guibg=#323232   gui=NONE             ctermfg=
 hi Comment         guifg=#605A4E                   gui=italic          ctermfg=244
 hi Todo            guifg=#8f8f8f                   gui=NONE            ctermfg=245
 hi Boolean         guifg=#b1d631                   gui=NONE            ctermfg=148
-hi String          guifg=#B9C4BA                   gui=NONE            ctermfg=148
 hi Identifier      guifg=#b1d631                   gui=NONE            ctermfg=148
 hi Function        guifg=#B7EF52                   gui=NONE            ctermfg=255
 hi Type            guifg=#81C7FF                   gui=NONE            ctermfg=103
@@ -87,6 +86,8 @@ hi Constant        guifg=#ff9800                   gui=NONE            ctermfg=2
 hi Number          guifg=#FEFFD5                   gui=NONE            ctermfg=208
 hi Special         guifg=#ff9800                   gui=NONE            ctermfg=208
 hi PreProc         guifg=#faf4c6                   gui=NONE            ctermfg=230
+
+hi String          guifg=#758265   guibg=NONE      gui=NONE            ctermfg=148
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " NERDTree highlight
@@ -106,8 +107,17 @@ hi treeHelp        guifg=#4D4D4D
 " Ruby
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
+hi rubyClass       guifg=#7AFFFD
+hi link rubyDefine rubyClass
+
+hi link rubyFunction Action
+
 hi rubySymbol      guifg=#14F2E7
 
+hi rubyLocalVariableOrMethod guifg=#F5F0C7
+
+hi link rubyString String
+hi rubyStringDelimiter guifg=#B5F964
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " HTML
@@ -126,6 +136,10 @@ hi link hamlClassChar hamlClass
 
 hi hamlId         guifg=#9FDC42
 hi link hamlIdChar    hamlId
+
+
+hi hamlRubyChar guifg=#C86161
+hi link hamlInterpolationDelimiter hamlRubyChar
 
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
