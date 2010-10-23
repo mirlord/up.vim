@@ -82,12 +82,13 @@ hi Boolean         guifg=#b1d631                   gui=NONE            ctermfg=1
 hi Identifier      guifg=#b1d631                   gui=NONE            ctermfg=148
 hi Function        guifg=#B7EF52                   gui=NONE            ctermfg=255
 hi Type            guifg=#81C7FF                   gui=NONE            ctermfg=103
-hi Statement       guifg=#C8C8C8                   gui=NONE            ctermfg=103
+hi Statement       guifg=#7AFFFD                   gui=NONE            ctermfg=103
 hi Keyword         guifg=#ff9800                   gui=NONE            ctermfg=208
 hi Constant        guifg=#ff9800                   gui=NONE            ctermfg=208
 hi Number          guifg=#FEFFD5                   gui=NONE            ctermfg=208
 hi Special         guifg=#ff9800                   gui=NONE            ctermfg=208
 hi PreProc         guifg=#faf4c6                   gui=NONE            ctermfg=230
+hi Define          guifg=#7AFFFD                   gui=NONE            ctermfg=230
 
 hi String          guifg=#758265   guibg=NONE      gui=NONE            ctermfg=148
 
@@ -109,15 +110,11 @@ hi treeHelp        guifg=#4D4D4D
 " SQL
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
-hi sqlStatement    guifg=#B7EF52
-hi sqlOperator     guifg=#FF9800
+hi link sqlOperator Special
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " Ruby
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
-
-hi rubyClass       guifg=#7AFFFD
-hi link rubyDefine rubyClass
 
 hi link rubyFunction Action
 
@@ -132,7 +129,7 @@ hi rubyStringDelimiter guifg=#B5F964
 " HTML
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
-hi htmlTagName     guifg=#7AFFFD
+" nth special
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " HAML
