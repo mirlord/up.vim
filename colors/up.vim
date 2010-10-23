@@ -33,8 +33,10 @@ hi Key             guifg=#FBDE2D   guibg=NONE      gui=NONE             ctermfg=
 hi CursorLine      guifg=NONE      guibg=#202020                                       ctermbg=234     cterm=NONE
 hi CursorColumn    guifg=NONE      guibg=#202020                                       ctermbg=234     cterm=NONE
 hi MatchParen      guifg=#d0ffc0   guibg=#202020   gui=bold            ctermfg=157     ctermbg=237     cterm=bold
-hi Pmenu           guifg=#ffffff   guibg=#202020                       ctermfg=255     ctermbg=238     cterm=NONE
+hi Pmenu           guifg=#ffffff   guibg=#444444                       ctermfg=255     ctermbg=238     cterm=NONE
 hi PmenuSel        guifg=#000000   guibg=#b1d631                       ctermfg=0       ctermbg=148     cterm=NONE
+hi PmenuSbar       guifg=#000000   guibg=#808080                       ctermfg=0       ctermbg=148     cterm=NONE
+hi PmenuThumb      guifg=#ffffff   guibg=#000000                       ctermfg=0       ctermbg=148     cterm=NONE
 
 hi Normal          guifg=#e2e2e5   guibg=#1B1B1B   gui=none            ctermfg=253     ctermbg=234     cterm=NONE
 hi NonText         guifg=#333333   guibg=#232323   gui=none            ctermfg=244     ctermbg=235     cterm=NONE
