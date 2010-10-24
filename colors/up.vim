@@ -85,13 +85,16 @@ hi Function        guifg=#B7EF52                   gui=NONE            ctermfg=2
 hi Type            guifg=#81C7FF                   gui=NONE            ctermfg=103
 hi Statement       guifg=#7AFFFD                   gui=NONE            ctermfg=103
 hi Keyword         guifg=#ff9800                   gui=NONE            ctermfg=208
-hi Constant        guifg=#ff9800                   gui=NONE            ctermfg=208
+hi Constant        guifg=#14F2E7                   gui=NONE            ctermfg=208
 hi Number          guifg=#FEFFD5                   gui=NONE            ctermfg=208
 hi Special         guifg=#ff9800                   gui=NONE            ctermfg=208
 hi PreProc         guifg=#faf4c6                   gui=NONE            ctermfg=230
 hi Define          guifg=#7AFFFD                   gui=NONE            ctermfg=230
 
-hi String          guifg=#758265   guibg=NONE      gui=NONE            ctermfg=148
+hi String          guifg=#3dde2e   guibg=NONE      gui=NONE            ctermfg=148
+hi Character       guifg=#22ff00   guibg=NONE      gui=NONE            ctermfg=148
+hi SpecialChar     guifg=#22ff44   guibg=NONE      gui=bold            ctermfg=148
+hi Delimiter       guifg=#ff9800   guibg=NONE      gui=NONE            ctermfg=148
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " NERDTree highlight
@@ -114,17 +117,19 @@ hi treeHelp        guifg=#4D4D4D
 hi link sqlOperator Special
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
+" Java
+"————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
+
+" nth special
+
+"————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " Ruby
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
 hi link rubyFunction Action
-
-hi rubySymbol      guifg=#14F2E7
+hi link rubyStringEscape SpecialChar
 
 hi rubyLocalVariableOrMethod guifg=#F5F0C7
-
-hi link rubyString String
-hi rubyStringDelimiter guifg=#B5F964
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " HTML
