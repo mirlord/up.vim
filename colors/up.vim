@@ -77,6 +77,7 @@ hi ColorColumn     guifg=NONE      guibg=#323232   gui=NONE             ctermfg=
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
 hi Comment         guifg=#605A4E                   gui=italic          ctermfg=244
+hi SpecialComment  guifg=#FAF4C6                   gui=NONE            ctermfg=244
 hi Todo            guifg=#8f8f8f                   gui=NONE            ctermfg=245
 hi Boolean         guifg=#b1d631                   gui=NONE            ctermfg=148
 hi Identifier      guifg=#b1d631                   gui=NONE            ctermfg=148
