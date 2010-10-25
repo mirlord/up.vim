@@ -83,6 +83,8 @@ hi Boolean         guifg=#b1d631                   gui=NONE            ctermfg=1
 hi Identifier      guifg=#b1d631                   gui=NONE            ctermfg=148
 hi Function        guifg=#B7EF52                   gui=NONE            ctermfg=255
 hi Type            guifg=#81C7FF                   gui=NONE            ctermfg=103
+hi Typedef         guifg=#7AFFFD                   gui=NONE            ctermfg=103
+hi StorageClass    guifg=#7AFFFD                   gui=NONE            ctermfg=103
 hi Statement       guifg=#7AFFFD                   gui=NONE            ctermfg=103
 hi Keyword         guifg=#ff9800                   gui=NONE            ctermfg=208
 hi Constant        guifg=#14F2E7                   gui=NONE            ctermfg=208
