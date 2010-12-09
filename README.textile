@@ -1,11 +1,11 @@
 h1. up.vim
 
-Vim colorscheme by "Sasha Koss":http://koss.nocorp.me
+Vim colorscheme by "Sasha Koss":http://koss.nocorp.me and "Vladimir Chizhov":https://github.com/mirlord
 
 This colorscheme made with Ruby on Rails (and related technologies)
 in mind, but also perfect with:
-* simple text;
+* Simple text;
 * Java;
 * XML, XSL and so on.
 
-!http://github.com/kossnocorp/up.vim/raw/master/doc/screenshot.png!
+!https://github.com/kossnocorp/up.vim/raw/master/doc/screenshot.png!
