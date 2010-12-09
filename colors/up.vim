@@ -1,6 +1,6 @@
-" Maintainer:   Aleksandr Koss
-" Version:      0.4
-" Last Change:  15 Oct 2010
+" Maintainer:   Sasha Koss
+" Version:      0.9
+" Last Change:  9 Dec 2010
 " Credits:      Vim color scheme "up" originaly based on BusyBee colorscheme create by Patrick J. Anderson
 
 set background=dark
