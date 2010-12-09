@@ -93,7 +93,7 @@ hi Special         guifg=#ff9800                   gui=NONE            ctermfg=2
 hi PreProc         guifg=#faf4c6                   gui=NONE            ctermfg=230
 hi Define          guifg=#7AFFFD                   gui=NONE            ctermfg=230
 
-hi String          guifg=#3dde2e   guibg=NONE      gui=NONE            ctermfg=148
+hi String          guifg=#8cd9a2   guibg=NONE      gui=NONE            ctermfg=148
 hi Character       guifg=#22ff00   guibg=NONE      gui=NONE            ctermfg=148
 hi SpecialChar     guifg=#22ff44   guibg=NONE      gui=bold            ctermfg=148
 hi Delimiter       guifg=#ff9800   guibg=NONE      gui=NONE            ctermfg=148
