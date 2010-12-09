@@ -2,4 +2,10 @@ h1. up.vim
 
 Vim colorscheme by "Sasha Koss":http://koss.nocorp.me
 
+This colorscheme made with Ruby on Rails (and related technologies)
+in mind, but also perfect with:
+* simple text;
+* Java;
+* XML, XSL and so on.
+
 !http://github.com/kossnocorp/up.vim/raw/master/doc/screenshot.png!

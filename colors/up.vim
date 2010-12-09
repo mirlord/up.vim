@@ -33,8 +33,10 @@ hi Key             guifg=#FBDE2D   guibg=NONE      gui=NONE             ctermfg=
 hi CursorLine      guifg=NONE      guibg=#202020                                       ctermbg=234     cterm=NONE
 hi CursorColumn    guifg=NONE      guibg=#202020                                       ctermbg=234     cterm=NONE
 hi MatchParen      guifg=#d0ffc0   guibg=#202020   gui=bold            ctermfg=157     ctermbg=237     cterm=bold
-hi Pmenu           guifg=#ffffff   guibg=#202020                       ctermfg=255     ctermbg=238     cterm=NONE
+hi Pmenu           guifg=#ffffff   guibg=#444444                       ctermfg=255     ctermbg=238     cterm=NONE
 hi PmenuSel        guifg=#000000   guibg=#b1d631                       ctermfg=0       ctermbg=148     cterm=NONE
+hi PmenuSbar       guifg=#000000   guibg=#808080                       ctermfg=0       ctermbg=148     cterm=NONE
+hi PmenuThumb      guifg=#ffffff   guibg=#000000                       ctermfg=0       ctermbg=148     cterm=NONE
 
 hi Normal          guifg=#e2e2e5   guibg=#1B1B1B   gui=none            ctermfg=253     ctermbg=234     cterm=NONE
 hi NonText         guifg=#333333   guibg=#232323   gui=none            ctermfg=244     ctermbg=235     cterm=NONE
@@ -75,19 +77,26 @@ hi ColorColumn     guifg=NONE      guibg=#323232   gui=NONE             ctermfg=
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
 hi Comment         guifg=#605A4E                   gui=italic          ctermfg=244
+hi SpecialComment  guifg=#FAF4C6                   gui=NONE            ctermfg=244
 hi Todo            guifg=#8f8f8f                   gui=NONE            ctermfg=245
 hi Boolean         guifg=#b1d631                   gui=NONE            ctermfg=148
 hi Identifier      guifg=#b1d631                   gui=NONE            ctermfg=148
 hi Function        guifg=#B7EF52                   gui=NONE            ctermfg=255
 hi Type            guifg=#81C7FF                   gui=NONE            ctermfg=103
-hi Statement       guifg=#C8C8C8                   gui=NONE            ctermfg=103
+hi Typedef         guifg=#7AFFFD                   gui=NONE            ctermfg=103
+hi StorageClass    guifg=#7AFFFD                   gui=NONE            ctermfg=103
+hi Statement       guifg=#7AFFFD                   gui=NONE            ctermfg=103
 hi Keyword         guifg=#ff9800                   gui=NONE            ctermfg=208
-hi Constant        guifg=#ff9800                   gui=NONE            ctermfg=208
+hi Constant        guifg=#14F2E7                   gui=NONE            ctermfg=208
 hi Number          guifg=#FEFFD5                   gui=NONE            ctermfg=208
 hi Special         guifg=#ff9800                   gui=NONE            ctermfg=208
 hi PreProc         guifg=#faf4c6                   gui=NONE            ctermfg=230
+hi Define          guifg=#7AFFFD                   gui=NONE            ctermfg=230
 
-hi String          guifg=#758265   guibg=NONE      gui=NONE            ctermfg=148
+hi String          guifg=#3dde2e   guibg=NONE      gui=NONE            ctermfg=148
+hi Character       guifg=#22ff00   guibg=NONE      gui=NONE            ctermfg=148
+hi SpecialChar     guifg=#22ff44   guibg=NONE      gui=bold            ctermfg=148
+hi Delimiter       guifg=#ff9800   guibg=NONE      gui=NONE            ctermfg=148
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " NERDTree highlight
@@ -104,26 +113,31 @@ hi treeUp          guifg=#4D4D4D
 hi treeHelp        guifg=#4D4D4D
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
+" SQL
+"————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
+
+hi link sqlOperator Special
+
+"————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
+" Java
+"————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
+
+" nth special
+
+"————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " Ruby
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
-hi rubyClass       guifg=#7AFFFD
-hi link rubyDefine rubyClass
-
 hi link rubyFunction Action
-
-hi rubySymbol      guifg=#14F2E7
+hi link rubyStringEscape SpecialChar
 
 hi rubyLocalVariableOrMethod guifg=#F5F0C7
-
-hi link rubyString String
-hi rubyStringDelimiter guifg=#B5F964
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " HTML
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
-hi htmlTagName     guifg=#7AFFFD
+hi def link javaScript Normal
 
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 " HAML
